@@ -22,7 +22,7 @@ const config = {
         }
     },
 
-    extensions: ['.svelte', '.md', '.svx'],
+    extensions: ['.svelte', '.svx'],
     preprocess: [
         vitePreprocess(),
         autoImport({
